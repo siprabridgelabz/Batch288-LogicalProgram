@@ -17,6 +17,8 @@ namespace LogicalProgramAssignment
 
                 Console.WriteLine("1-FibonacciSeries");
                 Console.WriteLine("2-Perfect Number");
+                Console.WriteLine("3-Prime Number");
+
 
                 {
                     Console.WriteLine("CHOOSE THE BELOW OPTIONS");
@@ -32,8 +34,14 @@ namespace LogicalProgramAssignment
                             Console.WriteLine("Perfect Number Program");
                            PerfectNumber perfectNumber=new PerfectNumber();
                             perfectNumber.Numbers();
-                          ;
                             break;
+                        case 3:
+                            Console.WriteLine("Prime Number Program");
+                            PrimeNumber prime = new PrimeNumber();
+                            prime.Number();
+                            break;
+                            
+                            
                         default:
                             Console.WriteLine("Invalid Option");
                             break;
