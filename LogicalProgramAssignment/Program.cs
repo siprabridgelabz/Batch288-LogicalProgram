@@ -13,9 +13,11 @@ namespace LogicalProgramAssignment
             bool flag = true;
             while (flag)
             {
-                Console.WriteLine("Welcome to Logical Programs");
+              
 
                 Console.WriteLine("1-FibonacciSeries");
+                Console.WriteLine("2-Perfect Number");
+
                 {
                     Console.WriteLine("CHOOSE THE BELOW OPTIONS");
                     int option = Convert.ToInt32(Console.ReadLine());
@@ -25,6 +27,12 @@ namespace LogicalProgramAssignment
                             Console.WriteLine("Fibonacci Series Program");
                             FibonacciSeries fibonacci = new FibonacciSeries();
                             fibonacci.Series();
+                            break;
+                        case 2:
+                            Console.WriteLine("Perfect Number Program");
+                           PerfectNumber perfectNumber=new PerfectNumber();
+                            perfectNumber.Numbers();
+                          ;
                             break;
                         default:
                             Console.WriteLine("Invalid Option");
