@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -19,6 +20,8 @@ namespace LogicalProgramAssignment
                 Console.WriteLine("2-Perfect Number");
                 Console.WriteLine("3-Prime Number");
                 Console.WriteLine("4-Reverse Number");
+                Console.WriteLine("5-Simulate Stopwatch Program");
+
 
 
 
@@ -47,6 +50,12 @@ namespace LogicalProgramAssignment
                             ReverseANumber reverseANumber = new ReverseANumber();
                             reverseANumber.Display();
                            
+                            break;
+                        case 5:
+                            Console.WriteLine("Simulate Stopwatch Program");
+                            SimulateStopwatch stopwatch = new SimulateStopwatch();
+                            stopwatch.FindSimulateStopwatchProgram();
+
                             break;
 
 
