@@ -18,6 +18,8 @@ namespace LogicalProgramAssignment
                 Console.WriteLine("1-FibonacciSeries");
                 Console.WriteLine("2-Perfect Number");
                 Console.WriteLine("3-Prime Number");
+                Console.WriteLine("4-Reverse Number");
+
 
 
                 {
@@ -40,8 +42,14 @@ namespace LogicalProgramAssignment
                             PrimeNumber prime = new PrimeNumber();
                             prime.Number();
                             break;
-                            
-                            
+                        case 4:
+                            Console.WriteLine("Prime Number Program");
+                            ReverseANumber reverseANumber = new ReverseANumber();
+                            reverseANumber.Display();
+                           
+                            break;
+
+
                         default:
                             Console.WriteLine("Invalid Option");
                             break;
